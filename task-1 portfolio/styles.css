@@ -1,0 +1,330 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    line-height: 1.6;
+    background: #f0f2f5; /* Light background for the whole page */
+}
+
+a {
+    color: #cc00ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background:#333; /* Bright blue background */
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1600x900') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff; /* White background for contrast */
+    border-bottom: 1px solid #ddd;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content {
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin: 40px 0 10px;
+    color: #007bff;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.linkedin {
+    background-image: url('https://img.icons8.com/ios-filled/50/0077B5/linkedin.png');
+}
+
+.github {
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/github.png');
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+
+/* Projects Section */
+#projects {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); /* Gradient background */
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.project {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-content h3 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.project-content p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.project-content a {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #007bff;
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Internships Section */
+#internships {
+    padding: 60px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#internships h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.internship {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.internship h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.internship p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Certifications Section */
+#certifications {
+    padding: 60px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#certifications h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.certification {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.certification h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.certification p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#contact form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#contact button:hover {
+    background: #8900b3;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
